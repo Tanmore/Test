@@ -12,9 +12,3 @@ GROUP BY Product,
          DATE(SaleData) 
 ORDER BY SaleData, 
          Product;
-
-
-
-#SELECT Product, SUM(Amount) FROM Sales  WHERE SaleData BETWEEN @FromDate AND @ToDate;
-    
-#b-tree    
