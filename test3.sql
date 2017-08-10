@@ -1,7 +1,4 @@
-﻿#DECLARE FromDate Datetime default "2017-01-01";
-#DECLARE ToDate Datetime default '2017-01-09';
-
-SET @FromDate:='2017-01-02';
+﻿SET @FromDate:='2017-01-02';
 SET @ToDate:='2017-01-03';
 SELECT DATE(SaleData),
        Product,  
