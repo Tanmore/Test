@@ -7,5 +7,5 @@ FROM Sales
 WHERE DATE(SaleData) BETWEEN @FromDate AND @ToDate
 GROUP BY Product, 
          DATE(SaleData) 
-ORDER BY SaleData, 
+ORDER BY DATE(SaleData), 
          Product;
